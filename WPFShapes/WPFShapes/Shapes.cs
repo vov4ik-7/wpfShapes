@@ -13,16 +13,14 @@ namespace WPFShapes
     {
         private int x0;
         private int y0;
-        private int wigth;
-        private int height;
+    
         private SolidColorBrush color ;
 
       public  Shapes()
         {
             this.x0 = x0;
             this.y0 = y0;
-            this.wigth = wigth;
-            this.height = height;
+           
             this.color = color;
         }
         public int X0
@@ -47,28 +45,7 @@ namespace WPFShapes
                 y0 = value;
             }
         }
-        public int Wigth
-        {
-            get
-            {
-                return wigth;
-            }
-            set
-            {
-                wigth = value;
-            }
-        }
-        public int Height0
-        {
-            get
-            {
-                return height;
-            }
-            set
-            {
-                height = value;
-            }
-        }
+       
         public SolidColorBrush Color
         {
             get
@@ -79,6 +56,10 @@ namespace WPFShapes
             {
                 color = value;
             }
+        }
+        public double Side(int x, int y)
+        {
+            return Math.Sqrt((x - x0) * (x - x0) + (y - y0) * (y - y0));
         }
 
     }
