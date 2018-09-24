@@ -23,6 +23,8 @@ namespace WPFShapes
         public MainWindow()
         {
             InitializeComponent();
+           
+            
         }
     }
 }

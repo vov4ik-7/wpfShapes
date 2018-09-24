@@ -6,7 +6,36 @@
         xmlns:local="clr-namespace:WPFShapes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Open"
+                            Executed="OpenCmdExecuted"
+                            CanExecute="OpenCmdCanExecuted">
+
+        </CommandBinding>
+        <CommandBinding Command="ApplicationCommands.Save"
+                            Executed="SaveCmdExecuted"
+                            CanExecute="SaveCmdCanExecuted">
+
+        </CommandBinding>
+    </Window.CommandBindings>
+    <Grid x:Name="window">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="133*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="264*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Menu HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="794" Margin="0,0,-0.4,0" Grid.ColumnSpan="3">
+            <MenuItem Header="File">
+                <MenuItem Command="ApplicationCommands.Open"/>
+                <MenuItem Command="ApplicationCommands.Save"/>
+                <MenuItem Header="Open"/>
+                <MenuItem Header="Save"/>
+            </MenuItem>
+            <MenuItem Header="Command"/>
+        </Menu>
+
+
     </Grid>
 </Window>

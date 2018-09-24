@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:WPFShapes"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+       
     </Application.Resources>
 </Application>
