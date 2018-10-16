@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Menu Height="20" VerticalAlignment="Top">
+            <MenuItem Header="File" FontSize="12">
+                <MenuItem Header="New"></MenuItem>
+                <MenuItem Header="Open"></MenuItem>
+                <Separator />
+                <MenuItem Header="Save"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Shapes" FontSize="12">
+
+            </MenuItem>
+        </Menu>
     </Grid>
 </Window>
