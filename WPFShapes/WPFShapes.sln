@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
+VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFShapes", "WPFShapes\WPFShapes.csproj", "{57BD1048-25BD-43E5-80B8-723FF8BD7526}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpfShapes", "wpfShapes\wpfShapes.csproj", "{FFBAE630-6E5B-43C9-8220-43DCAE156BB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{57BD1048-25BD-43E5-80B8-723FF8BD7526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57BD1048-25BD-43E5-80B8-723FF8BD7526}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57BD1048-25BD-43E5-80B8-723FF8BD7526}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57BD1048-25BD-43E5-80B8-723FF8BD7526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFBAE630-6E5B-43C9-8220-43DCAE156BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBAE630-6E5B-43C9-8220-43DCAE156BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBAE630-6E5B-43C9-8220-43DCAE156BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBAE630-6E5B-43C9-8220-43DCAE156BB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {ACD173FA-7B56-4EED-A06E-255EC0AB254E}
+		SolutionGuid = {C5F688F3-23A2-40B7-AA99-D0BBB11003BE}
 	EndGlobalSection
 EndGlobal

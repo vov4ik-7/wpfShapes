@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WPFShapes.Properties
+namespace wpfShapes.Properties
 {
 
 
